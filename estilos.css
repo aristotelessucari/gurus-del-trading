@@ -277,14 +277,12 @@ a.video:hover::after { transform: translateY(-2px); }
 .perfil { border-top: 2px solid var(--tinta); padding-top: 16px; }
 .perfil h3 { font-size: 26px; }
 .perfil .rol { font: 500 13px/1.5 var(--mono); color: var(--gris); margin: 6px 0 14px; }
-.citas { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; margin-top: 48px; border-top: 1px solid var(--tinta); }
-.citas blockquote { margin: 0; padding: 22px 24px 0 0; }
-.citas blockquote + blockquote { padding-left: 24px; border-left: 1px solid var(--linea); }
+.citas { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0 48px; margin-top: 48px; }
+.citas blockquote { margin: 0; padding: 22px 0 28px; border-top: 1px solid var(--tinta); }
 .citas p { font: 500 20px/1.4 var(--serif); margin-bottom: 10px; }
 .citas footer { font: 500 12.5px/1.4 var(--mono); color: var(--gris); }
 @media (max-width: 900px) {
   .citas { grid-template-columns: 1fr; }
-  .citas blockquote + blockquote { padding-left: 0; border-left: 0; border-top: 1px solid var(--linea); margin-top: 22px; }
 }
 
 /* ---------- Fuentes documentales ---------- */
