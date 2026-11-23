@@ -16,15 +16,23 @@
 <a class="saltar" href="#contenido">Saltar al contenido</a>
 
 <header class="cabecera">
-  <div class="envoltura">
-    <a class="marca" href="index.html">Los gurús del trading<span>Grupo 8 · Cultura Digital</span></a>
+  <div class="cabecera__fila">
+    <a class="marca" href="index.html">Los gurús del trading<span>Grupo 8 · Información y Cultura Digital</span></a>
     <button class="boton-menu" aria-expanded="false" aria-controls="menu">Menú</button>
     <nav aria-label="Secciones">
       <ul class="menu" id="menu">
         <li><a href="index.html"><small>01</small>Inicio</a></li>
         <li><a href="trabajo-de-campo.html" aria-current="page"><small>02</small>Trabajo de campo</a></li>
-        <li><a href="conceptos.html"><small>03</small>Conceptos y relación</a></li>
-        <li><a href="conclusiones.html"><small>04</small>Conclusiones</a></li>
+        <li class="tiene-sub"><a href="conceptos.html"><small>03</small>Concepto/Relación <svg class="flechita" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M1.5 3.5 5 7l3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a>
+          <ul class="submenu" aria-label="Conceptos">
+            <li><a href="concepto-cultura-digital.html"><small>01</small>Cultura digital</a></li>
+            <li><a href="concepto-identidad-digital.html"><small>02</small>Identidad digital</a></li>
+            <li><a href="concepto-redes-sociales-virtuales.html"><small>03</small>Redes sociales virtuales</a></li>
+            <li><a href="concepto-contenido-digital.html"><small>04</small>Contenido de la cultura digital</a></li>
+            <li><a href="concepto-economia-de-plataformas.html"><small>05</small>Economía de plataformas</a></li>
+          </ul>
+        </li>
+        <li><a href="conclusiones.html"><small>04</small>Conclusión</a></li>
       </ul>
     </nav>
   </div>
@@ -35,7 +43,7 @@
     <div class="envoltura">
       <p class="antetitulo">02 · Trabajo de campo</p>
       <h1>Lo que respondieron 60 jóvenes, lo que comentan los seguidores y lo que nos dijo un trader</h1>
-      <p class="entrada">Usamos tres técnicas: una encuesta, la observación de comentarios en publicaciones de Instagram y una entrevista. Todo lo que analizamos en la sección de conceptos sale de aquí.</p>
+      <p class="entrada">Usamos tres técnicas: la observación de comentarios en publicaciones de Instagram, una encuesta y una entrevista. Todo lo que analizamos en la sección de conceptos sale de aquí.</p>
     </div>
   </section>
 
@@ -48,7 +56,18 @@
       </div>
       <div class="metodo">
         <article class="aparece">
-          <p class="antetitulo">Encuesta</p>
+          <p class="antetitulo">1 · Observación</p>
+          <span class="grande">18</span>
+          <h3>comentarios de seguidores y 5 respuestas de creadores</h3>
+          <dl>
+            <dt>Dónde</dt><dd>Publicaciones de Instagram de Llados, El Sensei y Rayan Lewiis</dd>
+            <dt>Por qué</dt><dd>Son cuentas conocidas por mostrar lujo y prometer riqueza con el trading o el emprendimiento</dd>
+            <dt>Qué</dt><dd>Registramos y clasificamos cada comentario y cada respuesta del creador</dd>
+            <dt>Cuándo</dt><dd>Noviembre de 2026</dd>
+          </dl>
+        </article>
+        <article class="aparece" data-orden="2">
+          <p class="antetitulo">2 · Encuesta</p>
           <span class="grande">60</span>
           <h3>respuestas de jóvenes universitarios</h3>
           <dl>
@@ -59,18 +78,7 @@
           </dl>
         </article>
         <article class="aparece">
-          <p class="antetitulo">Observación</p>
-          <span class="grande">18</span>
-          <h3>comentarios de seguidores y 5 respuestas de creadores</h3>
-          <dl>
-            <dt>Dónde</dt><dd>Publicaciones de Instagram de Llados, El Sensei y Rayan Lewiis</dd>
-            <dt>Por qué</dt><dd>Son cuentas conocidas por mostrar lujo y prometer riqueza con el trading o el emprendimiento</dd>
-            <dt>Qué</dt><dd>Registramos y clasificamos cada comentario y cada respuesta del creador</dd>
-            <dt>Cuándo</dt><dd>Noviembre de 2026</dd>
-          </dl>
-        </article>
-        <article class="aparece">
-          <p class="antetitulo">Entrevista</p>
+          <p class="antetitulo">3 · Entrevista</p>
           <span class="grande">1</span>
           <h3>especialista: un trader que opera en Wall Street</h3>
           <dl>
@@ -84,14 +92,63 @@
     </div>
   </section>
 
-  <!-- Encuesta -->
+  <section class="seccion oscuro" id="observacion">
+    <div class="envoltura">
+      <div class="seccion__cabeza">
+        <p class="seccion__num">1. Observación</p>
+        <div>
+          <h2>El interés se expresa en público y se cierra en privado</h2>
+          <p class="nota" style="margin-top:14px">Observamos publicaciones de Instagram de tres cuentas conocidas por mostrar lujo y prometer riqueza: Llados, El Sensei y Rayan Lewiis. Registramos y clasificamos 18 comentarios de seguidores y las 5 respuestas de los creadores. Estas son las capturas.</p>
+        </div>
+      </div>
+      <div class="muro">
+        <figure class="aparece">
+          <div class="telefono"><img src="media/campo/llados.jpg" alt="Comentarios en una publicación de Llados: «Sin duda, viviendo el proceso!!», «Me encantaría cambiar todo incluído el físico pero algo siempre me frena», «GRANDE LLADOS»" loading="lazy"></div>
+          <figcaption><b>Llados</b><span>Admiración e identificación: «GRANDE LLADOS», «Felicidades por lograr lo que muchos desean».</span></figcaption>
+        </figure>
+        <figure class="aparece">
+          <div class="telefono"><img src="media/campo/elsensei.jpg" alt="Video de El Sensei junto a camionetas de lujo y comentarios: «Quiero aprender», respuesta del autor «Ya lo tienes», «Es un muy buen negocio, soy testigo de eso»" loading="lazy"></div>
+          <figcaption><b>El Sensei</b><span>Lujo en pantalla y un testimonio con 18 «me gusta». Al «Quiero aprender», el autor responde «Ya lo tienes».</span></figcaption>
+        </figure>
+        <figure class="aparece">
+          <div class="telefono"><img src="media/campo/rayanlewiis.jpg" alt="Comentarios «quiero empezar» y respuestas del autor Rayan Lewiis: «Escríbeme por privado esa misma palabra», «Abre mi DM, escríbeme la palabra y te lo mando»" loading="lazy"></div>
+          <figcaption><b>Rayan Lewiis</b><span>Tres «quiero empezar» y tres respuestas del autor que llevan la conversación al mensaje privado.</span></figcaption>
+        </figure>
+      </div>
+
+      <div class="codigos">
+        <figure class="grafico" data-observacion="comentarios" style="margin:0">
+          <span class="pregunta-n">CLASIFICACIÓN DE LOS 18 COMENTARIOS DE SEGUIDORES</span>
+          <h3 style="color:#fff">Más de la mitad pide entrar</h3>
+          <div class="zona-filas"></div>
+          <p class="hallazgo" style="color:#CFC9BC">Ninguna de las 5 respuestas de los creadores resuelve la duda en público: todas invitan a seguir por privado o a «escribir la palabra».</p>
+          <div class="transcrito" style="margin-top:28px">
+            <span class="t">«Pasa esos trucos»</span>
+            <span class="m">6&#8239;632<small>«me gusta»</small></span>
+            <span class="e">Comentario registrado en la observación; está transcrito porque no quedó en las capturas del grupo.</span>
+          </div>
+        </figure>
+        <div>
+          <p class="pregunta-n" style="font:500 12px/1 var(--mono);letter-spacing:.1em;color:#9C978C;margin-bottom:22px">LA CADENA DE ENGANCHE</p>
+          <ol class="cadena">
+            <li class="aparece"><b>El video muestra el éxito</b><p>Autos de lujo, gestos de gratitud, promesas de libertad financiera.</p></li>
+            <li class="aparece"><b>El seguidor pide entrar en público</b><span class="burbuja">Quiero empezar!! 💗<small>privv_jakiga · 39 «me gusta»</small></span></li>
+            <li class="aparece"><b>El creador lo lleva al privado</b><span class="burbuja burbuja--autor">Eso es! Escríbeme al privado y lo vemos 💪<small>rayanlewiis · Autor · 28 «me gusta»</small></span></li>
+            <li class="aparece"><b>La venta ocurre donde no se ve</b><p>No tuvimos acceso a los mensajes privados ni a los precios.</p></li>
+            <li class="aparece"><b>Cursos, señales y más cursos</b><p>Según la entrevista: primero capacitaciones, luego grupos de alertas y después más talleres, siempre un paso por detrás del supuesto experto.</p></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="seccion" id="encuesta">
     <div class="envoltura">
       <div class="seccion__cabeza">
-        <p class="seccion__num">Encuesta · n = 60</p>
+        <p class="seccion__num">2. Encuesta</p>
         <div>
           <h2>La imagen atrae, aunque no se le crea</h2>
-          <p class="nota" style="margin-top:14px">Redibujamos los nueve gráficos con las cifras exactas del formulario; el original de Google Forms está debajo de cada uno. En las preguntas de varias respuestas los porcentajes suman más de 100 %. Pasa el cursor por una barra para ver su lectura.</p>
+          <p class="nota" style="margin-top:14px">Encuestamos a 60 jóvenes universitarios, principalmente de la PUCP, del 12 al 19 de noviembre de 2026. Redibujamos los nueve gráficos con las cifras exactas del formulario; el original de Google Forms está debajo de cada uno. En las preguntas de varias respuestas los porcentajes suman más de 100 %. Pasa el cursor por una barra para ver su lectura.</p>
         </div>
       </div>
       <div class="graficos">
@@ -159,65 +216,17 @@
           <details class="original"><summary>Ver el gráfico original de Google Forms</summary><img src="media/encuesta/p9.png" alt="Gráfico original de la pregunta 9 en Google Forms" loading="lazy"></details>
         </figure>
       </div>
-    </div>
-  </section>
-
-  <!-- Observación -->
-  <section class="seccion oscuro" id="observacion">
-    <div class="envoltura">
-      <div class="seccion__cabeza">
-        <p class="seccion__num">Observación · Instagram</p>
-        <div>
-          <h2>El interés se expresa en público y se cierra en privado</h2>
-          <p class="nota" style="margin-top:14px">Capturas de los comentarios en publicaciones de las tres cuentas observadas.</p>
-        </div>
-      </div>
-      <div class="muro">
-        <figure class="aparece">
-          <div class="telefono"><img src="media/campo/llados.jpg" alt="Comentarios en una publicación de Llados: «Sin duda, viviendo el proceso!!», «Me encantaría cambiar todo incluído el físico pero algo siempre me frena», «GRANDE LLADOS»" loading="lazy"></div>
-          <figcaption><b>Llados</b><span>Admiración e identificación: «GRANDE LLADOS», «Felicidades por lograr lo que muchos desean».</span></figcaption>
-        </figure>
-        <figure class="aparece">
-          <div class="telefono"><img src="media/campo/elsensei.jpg" alt="Video de El Sensei junto a camionetas de lujo y comentarios: «Quiero aprender», respuesta del autor «Ya lo tienes», «Es un muy buen negocio, soy testigo de eso»" loading="lazy"></div>
-          <figcaption><b>El Sensei</b><span>Lujo en pantalla y un testimonio con 18 «me gusta». Al «Quiero aprender», el autor responde «Ya lo tienes».</span></figcaption>
-        </figure>
-        <figure class="aparece">
-          <div class="telefono"><img src="media/campo/rayanlewiis.jpg" alt="Comentarios «quiero empezar» y respuestas del autor Rayan Lewiis: «Escríbeme por privado esa misma palabra», «Abre mi DM, escríbeme la palabra y te lo mando»" loading="lazy"></div>
-          <figcaption><b>Rayan Lewiis</b><span>Tres «quiero empezar» y tres respuestas del autor que llevan la conversación al mensaje privado.</span></figcaption>
-        </figure>
-      </div>
-
-      <div class="codigos">
-        <figure class="grafico" data-observacion="comentarios" style="margin:0">
-          <span class="pregunta-n">CLASIFICACIÓN DE LOS 18 COMENTARIOS DE SEGUIDORES</span>
-          <h3 style="color:#fff">Más de la mitad pide entrar</h3>
-          <div class="zona-filas"></div>
-          <p class="hallazgo" style="color:#CFC9BC">Ninguna de las 5 respuestas de los creadores resuelve la duda en público: todas invitan a seguir por privado o a «escribir la palabra».</p>
-          <div class="transcrito" style="margin-top:28px">
-            <span class="t">«Pasa esos trucos»</span>
-            <span class="m">6&#8239;632<small>«me gusta»</small></span>
-            <span class="e">Comentario registrado en la observación; está transcrito porque no quedó en las capturas del grupo.</span>
-          </div>
-        </figure>
-        <div>
-          <p class="pregunta-n" style="font:500 12px/1 var(--mono);letter-spacing:.1em;color:#9C978C;margin-bottom:22px">LA CADENA DE ENGANCHE</p>
-          <ol class="cadena">
-            <li class="aparece"><b>El video muestra el éxito</b><p>Autos de lujo, gestos de gratitud, promesas de libertad financiera.</p></li>
-            <li class="aparece"><b>El seguidor pide entrar en público</b><span class="burbuja">Quiero empezar!! 💗<small>privv_jakiga · 39 «me gusta»</small></span></li>
-            <li class="aparece"><b>El creador lo lleva al privado</b><span class="burbuja burbuja--autor">Eso es! Escríbeme al privado y lo vemos 💪<small>rayanlewiis · Autor · 28 «me gusta»</small></span></li>
-            <li class="aparece"><b>La venta ocurre donde no se ve</b><p>No tuvimos acceso a los mensajes privados ni a los precios.</p></li>
-            <li class="aparece"><b>Cursos, señales y más cursos</b><p>Según la entrevista: primero capacitaciones, luego grupos de alertas y después más talleres, siempre un paso por detrás del supuesto experto.</p></li>
-          </ol>
-        </div>
+    <div class="sintesis aparece">
+        <p class="seccion__num">Lo que dice la encuesta</p>
+        <p>El contenido de los gurús llega a la mayoría: el 75 % lo encuentra en sus redes, sobre todo en TikTok e Instagram, y al 45 % le aparece todos los días o varias veces por semana. Lo que más circula es el lujo (70 %) y la promesa de ganar mucho dinero (65 %). La credibilidad es baja —solo el 31,7 % cree en los resultados que muestran—, pero la curiosidad es alta: el 55 % sintió ganas de aprender trading y el 38,3 % pensó en comprar un curso. La imagen atrae aunque no se le crea.</p>
       </div>
     </div>
   </section>
 
-  <!-- Entrevista -->
   <section class="seccion" id="entrevista">
     <div class="envoltura">
       <div class="seccion__cabeza">
-        <p class="seccion__num">Entrevista</p>
+        <p class="seccion__num">3. Entrevista</p>
         <h2>Lo que los gurús no muestran, visto desde el mercado</h2>
       </div>
       <div class="entrevista">
@@ -261,11 +270,10 @@
     </div>
   </section>
 
-  <!-- Fuentes documentales -->
   <section class="seccion" id="fuentes">
     <div class="envoltura">
       <div class="seccion__cabeza">
-        <p class="seccion__num">Contraste documental</p>
+        <p class="seccion__num">Fuentes complementarias</p>
         <div>
           <h2>Lo que dicen los reguladores y la prensa</h2>
           <p class="nota" style="margin-top:14px">Fuentes que usamos para contrastar lo observado. Los casos judiciales citados son acusaciones o investigaciones, no condenas.</p>
@@ -287,15 +295,15 @@
   <div class="envoltura">
     <nav class="siguiente" aria-label="Páginas">
       <a href="index.html"><small>Anterior</small>← Inicio</a>
-      <a href="conceptos.html" style="text-align:right"><small>Siguiente</small>Conceptos y relación →</a>
+      <a href="conceptos.html" style="text-align:right"><small>Siguiente</small>Concepto/Relación →</a>
     </nav>
   </div>
 </main>
 
 <footer class="pie">
   <div class="envoltura">
-    <span>Grupo 8 · Información y Cultura Digital · PUCP 2026-2</span>
-    <span><a href="index.html">Inicio</a> · <a href="conceptos.html">Conceptos</a> · <a href="conclusiones.html">Conclusiones</a></span>
+    <span>Grupo 8 · Información y Cultura Digital · PUCP 2026-2 · Profesor Bruno Rivas Frías</span>
+    <span><a href="index.html">Inicio</a> · <a href="trabajo-de-campo.html">Trabajo de campo</a> · <a href="conceptos.html">Concepto/Relación</a> · <a href="conclusiones.html">Conclusión</a></span>
   </div>
 </footer>
 <script src="app.js"></script>
