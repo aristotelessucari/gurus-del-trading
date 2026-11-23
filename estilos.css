@@ -170,6 +170,7 @@ q, .cita-texto { quotes: "«" "»"; }
 .video { position: relative; background: #000; border: 1px solid var(--noche-linea); }
 .video video { width: 100%; aspect-ratio: 16 / 9; background: #000; }
 a.video { position: relative; }
+a.video img { width: 100%; height: auto; }
 a.video::after {
   content: "▶  Ver la entrevista"; position: absolute; left: 24px; bottom: 24px;
   font: 600 14px/1 var(--mono); letter-spacing: .04em; color: var(--noche);
